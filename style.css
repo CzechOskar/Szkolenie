@@ -16,6 +16,10 @@ main>header {
     justify-content: space-around;
 }
 
+main>header img {
+    width: 50%;
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -111,7 +115,8 @@ footer {
 .cookies {
     position: fixed;
     bottom: 0;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     border: 5px solid rgba(68, 28, 9, 0.75);
     background-color: rgb(161, 74, 15, 0.75);
     display: flex;
