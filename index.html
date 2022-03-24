@@ -5,58 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <h1>Oskar Czech Wizytówka</h1>
+        <!-- 4. Nagłówki -->
+
     </header>
     <nav>
+
+        <!-- 1. LISTA -->
         <ul>
             <li>Home</li>
             <li>Projekty</li>
             <li>Kontakt</li>
         </ul>
+
     </nav>
     <main>
         <header>
+            <div class="container">
+                <h1>Oskar Czech</h1>
+                <p>Robie strony</p>
+                <h2>Technologie, które wykorzystuję:</h2>
+
+                <table border="1">
+                    <tr>
+                        <th>lp.</th>
+                        <th>Technologia</th>
+                        <th>Moduł</th>
+                        <th>Ocena</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">1.</td>
+                        <td rowspan="2">HTML</td>
+                        <td>Semantyka</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>Tabele</td>
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>CSS</td>
+                        <td colspan="2">
+                            <a href="./pozycje.html" target="_blank">Pozycje</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
             <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="APietryga Profile Photo">
         </header>
-
-        <article>
-            <header>
-                <h2>Technologie</h2>
-            </header>
-            <table style="border: 1px">
-                <tr>
-                    <th>lp.</th>
-                    <th>Technologia</th>
-                    <th>Moduł</th>
-                    <th>Ocena</th>
-                </tr>
-                <tr>
-                    <td rowspan="2">1.</td>
-                    <td rowspan="2">HTML</td>
-                    <td>Semantyka</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>Tabele</td>
-                    <td>⭐⭐⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>2.</td>
-                    <td>CSS</td>
-                    <td colspan="2">Nie dotyczy</td>
-                </tr>
-            </table>
-        </article>
 
         <section>
             <header>
                 <h2>Projekty</h2>
+                <p>Soon...</p>
             </header>
+
         </section>
     </main>
 
@@ -64,18 +73,23 @@
         <header>
             <h2>Kontakt</h2>
         </header>
-
         <form action="/index.html">
-
             <input type="email" name="" id="" placeholder="E-mail">
             <input type="text" name="" id="" placeholder="Tytuł">
             <textarea name="" id="" cols="30" rows="10"></textarea>
             <input type="submit" value="WYŚLIJ">
         </form>
-
     </article>
 
-    <footer>Stopka</footer>
+    <footer>
+        STOPKA STRONY
+    </footer>
+
+    <div class="cookies">
+        <p>Ta strona nie używa plików cookies</p>
+        <button>OK</button>
+    </div>
+
 </body>
 
 </html>

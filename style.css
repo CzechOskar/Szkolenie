@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: burlywood;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main>header {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* GŁÓWNA NAWIGACJA */
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid rgba(68, 28, 9);
+    background-color: rgb(161, 74, 15);
+    border-top: none;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: rgb(100, 65, 40);
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    border-color: rgb(48, 214, 229);
+    background-color: rgb(245, 207, 138);
+    color: #000;
+}
+
+nav ul li:active {
+    border-color: rgb(20, 90, 97);
+    background-color: rgb(182, 144, 73);
+    transition: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container h1,
+.container h2 {
+    margin-bottom: 15px;
+}
+
+.container p {
+    margin-bottom: 35px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+section header {
+    margin: 50px 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+section header h2 {
+    padding: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin 0 auto;
+    width: 400px;
+    gap: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cookies {
+    position: fixed;
+    bottom: 0;
+    width: 1200px;
+    border: 5px solid rgba(68, 28, 9, 0.75);
+    background-color: rgb(161, 74, 15, 0.75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.cookies button {
+    padding: 5px 10px;
+}
