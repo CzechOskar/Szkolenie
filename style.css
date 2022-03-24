@@ -16,7 +16,6 @@ main>header {
     justify-content: space-around;
 }
 
-/* GŁÓWNA NAWIGACJA */
 nav {
     position: sticky;
     top: 0;
