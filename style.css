@@ -8,18 +8,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background-color: burlywood;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-main>header {
-    display: flex;
-    justify-content: space-around;
-}
-
-main>header img {
-    width: 50%;
-}
-
+/* NAWIGACJA */
 nav {
     position: sticky;
     top: 0;
@@ -55,6 +47,17 @@ nav ul li:active {
     border-color: rgb(20, 90, 97);
     background-color: rgb(182, 144, 73);
     transition: none;
+}
+
+main>header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main img {
+    width: 50%;
+    border-radius: 10%;
 }
 
 .container {
@@ -103,7 +106,8 @@ form {
     display: flex;
     flex-direction: column;
     margin 0 auto;
-    width: 400px;
+    width: 60%;
+    max-width: 400px;
     gap: 5px;
 }
 
@@ -127,4 +131,11 @@ footer {
 
 .cookies button {
     padding: 5px 10px;
+}
+
+@media (max-width:769px) {
+    .container {
+        text-align: center;
+        padding-top: 20px;
+    }
 }
